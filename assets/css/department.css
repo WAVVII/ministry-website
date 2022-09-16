@@ -14,45 +14,6 @@
     position: relative;
 }
 
-header{
-    position: relative;
-    top: 0%;
-    width: 100%;
-    margin-bottom: 0px;
-    padding: 10px 100px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-header .logo{
-    position: relative;
-    width: auto;
-}
-
-header .nav a{
-    font-weight: 600;
-}
-
-header div{
-    position: relative;
-    display: flex;
-}
-
-header div a{
-    padding: 10px 20px;
-    text-decoration: none;
-    color: black;
-    transition: 0.5s;
-    transition-property: background;
-    border-radius: 10cm;
-}
-
-header div a:hover{
-    background: rgb(255, 183, 49);
-    color: black;
-}
-
 .SEV{
     margin: 0;
     padding: 0;
