@@ -282,7 +282,7 @@ span{
 
 @media (max-width: 1325px){
     header{
-        padding: 16px 3%;
+        padding: 20px 3%;
     }
     header.sticky{
         padding: 8px 3%;
@@ -477,7 +477,7 @@ span{
     .about-text{
         margin-top: 0px;
         margin-right: 5px;
-        padding-left: 25px;
+        padding-left: 20px;
     }
     .about-text h2{
         padding-right: 10px;
