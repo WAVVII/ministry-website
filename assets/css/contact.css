@@ -5,6 +5,52 @@ margin: 0;
 padding: 0;
 box-sizing: border-box;
 font-family: 'Josefin Sans', sans-serif;
+list-style: none;
+}
+
+header{
+    position: relative;
+    right:0;
+    top:0;
+    width:100%;
+    z-index: 1000;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color:rgba(255, 255, 255, 0.801);
+    padding: 15px 70px;
+    border-bottom:1px solid transparent;
+    transition: all .40 ease;
+    text-decoration: none;
+}
+
+.logo img{
+	position: relative;
+	max-width: 90px;
+}
+
+.navbar{
+    display: flex;
+}
+
+.navbar a{
+    color: rgb(0, 0, 0);
+    font-size: 1.2em;
+    font-weight: 600;
+    padding: 10px 25px;
+    margin: 0 2px;
+    border-radius: 20rem;
+    transition: all .40s ease;
+}
+
+.navbar a:hover{
+    background: rgb(0, 181, 0);
+    color: #ffffff;
+}
+
+.navbar li a{
+    text-decoration: none;
+    display: list-item;
 }
 
 section
@@ -89,4 +135,16 @@ form textarea
     border: 2px solid limegreen;
     background: transparent;
     transform: scale(1.1);
+}
+
+@media (max-width: 803px){
+    .logo img{
+        max-width: 80px;
+    }
+    header{
+        padding: 15px 5%;
+    }
+    header .navbar{
+        display: none;
+    }
 }
