@@ -472,6 +472,7 @@ span{
         position: relative;
         margin-top: 30px;
         align-items: center;
+        margin-left: 156px;
     }
     .about-text{
         margin-top: 0px;
@@ -486,5 +487,8 @@ span{
     }
     .main-text h2{
         font-size: 1.3em;
+    }
+    .home{
+        padding-left: 20px;
     }
 }
