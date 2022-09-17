@@ -147,4 +147,8 @@ form textarea
     header .navbar{
         display: none;
     }
+    .contactForm form input,
+    form textarea{
+        background-color: #e8f0ee;
+    }
 }
