@@ -206,3 +206,12 @@ h3{
     justify-content: space-evenly;
   }
 }
+
+@media(max-width: 867px){
+  .navbar{
+    display: none;
+  }
+  .container{
+    justify-content: space-evenly;
+  }
+}

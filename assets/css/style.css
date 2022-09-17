@@ -491,4 +491,7 @@ span{
     .home{
         padding-left: 20px;
     }
+    .whole{
+        width: 100%;
+    }
 }
