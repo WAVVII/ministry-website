@@ -172,41 +172,17 @@ h3{
 .content a{
     display: inline-block;
     padding: 10px 20px;
-    background: rgb(245, 245, 245);
+    background: green;
     border-radius: 17px;
     text-decoration: none;
-    color: #000;
+    color: #fff;
     font-weight: 900;
     margin-top: 20px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, .2);
 }
 
 .content a:hover{
-    color: orange;
-}
-
-@media (max-width: 1010px){
-    header .nav{
-        display: none;
-    }
-    header{
-        padding: 10px 20px;
-    }
-    header .logo{
-        max-width: 90px;
-    }
-    .container {
-        justify-content: space-evenly;
-    }
-}
-@media (max-width: 803px){
-    .logo img{
-        max-width: 80px;
-    }
-    header{
-        padding: 15px 5%;
-    }
-    header .navbar{
-        display: none;
-    }
+    color: green;
+    background: rgb(223, 223, 223);
+    transition: 0.6s;
 }
