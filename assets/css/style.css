@@ -411,7 +411,9 @@ span{
     }
     .navbar.active{
         top:100%;
-
+    }
+    header .btn{
+        display: none;
     }
     :root{
         --h1-font: 3.7rem;
