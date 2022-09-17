@@ -149,6 +149,6 @@ form textarea
     }
     .contactForm form input,
     form textarea{
-        background-color: #e8f0ee;
+        background-color: rgba(232,240,254,255);
     }
 }
