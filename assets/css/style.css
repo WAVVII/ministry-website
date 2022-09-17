@@ -44,6 +44,11 @@ header:hover{
     transition: 0.6s;
 }
 
+header{
+    background-color:rgba(255, 255, 255, 0.601);
+    transition: 0.6s;
+}
+
 .logo img{
 	position: relative;
 	max-width: 90px;
