@@ -10,6 +10,7 @@ list-style: none;
 
 header{
     position: relative;
+    position: fixed;
     right:0;
     top:0;
     width:100%;
@@ -35,7 +36,7 @@ header{
 
 .navbar a{
     color: rgb(0, 0, 0);
-    font-size: 1.2em;
+    font-size: 1.1rem;
     font-weight: 600;
     padding: 13px 25px;
     margin: 0 2px;
@@ -67,7 +68,7 @@ section
     display: grid;
     grid-template-columns: repeat(2, 2fr);
     align-items: center;
-    grid-gap: 6rem
+    margin-top: 100px;
 }
 
 .contactForm h1
@@ -87,8 +88,9 @@ span
     color: rgb(61, 61, 61);
     letter-spacing: 1px;
     line-height: 26px;
-    font-size: 1.1rem;
+    font-size: 1rem;
     margin-bottom: 1.5rem;
+    font-weight: 600;
 }
 
 .contactForm form 
@@ -117,24 +119,24 @@ form textarea
 
 .contactForm form .btn
 {
-    display: inline-block;
-    background: limegreen;
-    font-size: 1.1rem;
-    letter-spacing: 1px;
-    text-transform: uppercase;
-    font-weight: 600;
-    border: 2px solid transparent;
-    border-radius: 10px;
-    width: 50%;
-    transition: ease .20s;
+    padding: 7px 40px;   
+    background: green;
+    border: 0;
+    outline: none;
     cursor: pointer;
+    font-size: 22px;
+    font-weight: 500;
+    border-radius: 30px;
+    color: white;
+    transition: 0.6s;
 }
 
 .contactForm form .btn:hover
 {
     border: 2px solid limegreen;
     background: transparent;
-    transform: scale(1.1);
+    transform: scale(1.05);
+    color: black;
 }
 
 @media (max-width: 803px){
@@ -150,5 +152,13 @@ form textarea
     .contactForm form input,
     form textarea{
         background-color: #e8f0fe;
+    }
+}
+
+/* Big Screens Like Televisions */
+
+@media (min-width: 1116px){
+    .contact{
+        min-height: 88vh;
     }
 }

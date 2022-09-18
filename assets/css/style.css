@@ -324,11 +324,13 @@ span{
     section{
         padding: 80px 70px;
     }
+    header{
+        padding: 5px 3%;
+    }
     .home{
         height: 100vh;
         margin-bottom: 0px;
     }
-
     .home{
         grid-template-columns: 1fr;
     }
@@ -385,6 +387,9 @@ span{
         position: relative;
         margin: 20px 50px;
         justify-content: center;
+    }
+    .logo img{
+        max-width: 80px;
     }
 }
 
@@ -504,5 +509,36 @@ span{
     }
     .whole{
         width: 100%;
+    }
+}
+
+/* Big Screens (Televisions etc...) */
+
+@media (min-width: 1116px){
+    header{
+        padding: 20px 3%;
+    }
+    header.sticky{
+        padding: 8px 3%;
+    }
+    section{
+        padding: 130px 60px;
+    }
+    .home{
+        margin-bottom: 80px;
+    }
+    .new{
+        margin-top: 86px;
+        margin-bottom: 0px;
+    }
+    .about-text{
+        margin-top: 30px;
+        padding-left: 40px;
+    }
+    .about-text h2{
+        font-weight: 600;
+    }
+    .new{
+        margin-top: 230px;
     }
 }

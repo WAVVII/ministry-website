@@ -13,6 +13,7 @@
     height: 100vh;
     background: #eff4fd;
     position: relative;
+    transition: 0.6s;
 }
 
 header{
@@ -42,7 +43,7 @@ header{
 
 .navbar a{
     color: rgb(0, 0, 0);
-    font-size: var(--p-font);
+    font-size: 1.1rem;
     font-weight: 600;
     padding: 13px 25px;
     margin: 0 2px;
@@ -218,5 +219,35 @@ h3{
   }
   .container{
     justify-content: space-evenly;
+  }
+  .logo img{
+    max-width: 80px;
+    transition: 0.6s;
+  }
+  .btn{
+    display: none;
+  }
+  header{
+    padding: 5px 3%;
+    transition: 0.6s
+  }
+}
+
+@media (min-width: 868px){
+  .logo img{
+    max-width: 90px;
+    transition: 0.6s;
+  }
+  header{
+    padding: 10px 5%;
+    transition: 0.6s
+  }
+}
+
+/* Big Screen */
+
+@media (min-width: 1116px){
+  header{
+    padding: 20px 3%;
   }
 }
