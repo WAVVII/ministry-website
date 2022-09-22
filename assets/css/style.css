@@ -201,6 +201,19 @@ span{
     color: rgb(255, 27, 27);
 }
 
+.box .Ortom p{
+    display: inline-block;
+    border-radius: 50px;
+    font-size: 1.15em;
+    color: #ffffff;
+    background:rgb(0, 0, 0) ;
+    border: 1px solid rgb(0, 181, 0) ;
+    padding: 5px 20px;
+    margin-bottom: 30px;
+    margin-top: 8px;
+    transition: .40s all ease;
+}
+
 .services-content{
     display:grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, auto));
@@ -513,7 +526,7 @@ span{
 
 /* Big Screens (Televisions etc...) */
 
-@media (min-width: 1116px){
+@media screen and (max-width: 1116px){
     header{
         padding: 20px 3%;
     }
