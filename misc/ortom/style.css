@@ -116,9 +116,8 @@ header ul li a
 
 .content .imgBox
 {
-	width: 500px;
 	display: flex;
-	justify-content: flex-end;
+	justify-content: center;
 	padding-right: 10px;
 	margin-top: 0px;
 }

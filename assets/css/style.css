@@ -525,7 +525,7 @@ span{
 }
 
 /* Big Screens (Televisions etc...) */
-
+/* 
 @media screen and (max-width: 1116px){
     header{
         padding: 20px 3%;
@@ -553,4 +553,4 @@ span{
     .new{
         margin-top: 230px;
     }
-}
+} */
