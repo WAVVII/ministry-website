@@ -278,6 +278,12 @@ h3 {
   }
 }
 
+@media (min-width: 872px){
+  .mobile-menu, .hamburger{
+    display: none;
+  }
+}
+
 @media (max-width: 871px) {
   .navbar {
     display: none;
