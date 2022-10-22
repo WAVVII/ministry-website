@@ -17,7 +17,7 @@
 }
 
 header {
-  position: relative;
+  position: sticky;
   right: 0;
   top: 0;
   width: 100%;
@@ -30,6 +30,16 @@ header {
   border-bottom: 1px solid transparent;
   transition: all 0.4 ease;
   margin-bottom: 35px;
+}
+
+header:hover {
+  background-color: white;
+  transition: 0.6s;
+}
+
+header {
+  background-color: rgba(255, 255, 255, 0.601);
+  transition: 0.6s;
 }
 
 .logo img {
@@ -306,11 +316,11 @@ h3 {
 
 @media (max-width: 868px) {
   .logo img {
-    max-width: 90px;
+    max-width: 80px;
     transition: 0.6s;
   }
   header {
-    padding: 10px 5%;
+    padding: 5px 3%;
     transition: 0.6s;
   }
 }
