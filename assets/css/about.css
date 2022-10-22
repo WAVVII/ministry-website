@@ -90,13 +90,17 @@ h1{
   margin-top: 20px;
 }
 
+h2{
+  opacity: 0%;
+}
+
 hr{
   width: 40%;
   height: 2.8px;
   border: none;
   background-color: rgb(70, 70, 70);
   margin-top: 1px;
-  margin-bottom: 70px;
+  margin-bottom: 0px;
   border-radius: 50px;
 }
 
@@ -155,6 +159,19 @@ span{
   .navbar {
     display: none;
   }
+  table{
+    display: none;
+  }
+  section{
+    padding: 0 30px;
+  }
+}
+
+@media (min-width: 867.5px){
+  hr{
+    margin-bottom: 70px;
+    transition: 0.6s ease-in-out;
+  }
 }
 
 @media (max-width: 867px) {
@@ -175,9 +192,17 @@ span{
     padding: 5px 3%;
     transition: 0.6s;
   }
+  h2{
+    opacity: 100%;
+    transition: 0.6s ease-out;
+    margin-top: 15px;
+    text-align: center;
+    margin-bottom: 70px;
+    font-size: 1.3rem;
+  }
 }
 
-@media (min-width: 868px) {
+@media (max-width: 868px) {
   .logo img {
     max-width: 90px;
     transition: 0.6s;
@@ -187,7 +212,7 @@ span{
     transition: 0.6s;
   }
 }
-@media screen and (min-width: 980px) {
+@media screen and (max-width: 980px) {
   header {
     padding: 5px 3%;
   }
@@ -197,6 +222,12 @@ span{
     justify-content: center;
     align-items: center;
     padding: 17px 3%;
+  }
+}
+
+@media (max-width: 868px){
+  section{
+    padding: 0 32px;
   }
 }
 

@@ -26,10 +26,10 @@ header {
   align-items: center;
   justify-content: space-between;
   background-color: rgba(255, 255, 255);
-  padding: 15px 40px;
+  padding: 15px 20px;
   border-bottom: 1px solid transparent;
   transition: all 0.4 ease;
-  margin-bottom: 70px;
+  margin-bottom: 35px;
 }
 
 .logo img {
@@ -45,7 +45,7 @@ header {
   color: rgb(0, 0, 0);
   font-size: 1.1rem;
   font-weight: 600;
-  padding: 13px 25px;
+  padding: 10px 25px;
   margin: 0 2px;
   border-radius: 20rem;
   transition: all 0.4s ease;
@@ -212,7 +212,19 @@ h3 {
   }
 }
 
-@media (max-width: 867px) {
+@media (max-width: 980px){
+  header{
+    padding: 5px 3%;
+  }
+  .logo img{
+    max-width: 80px;
+  }
+  .navbar a{
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 871px) {
   .navbar {
     display: none;
   }
@@ -232,7 +244,7 @@ h3 {
   }
 }
 
-@media (min-width: 868px) {
+@media (max-width: 868px) {
   .logo img {
     max-width: 90px;
     transition: 0.6s;
@@ -243,10 +255,10 @@ h3 {
   }
 }
 
-/* Big Screen */
+/* Big Screen
 
 @media (min-width: 1116px) {
   header {
     padding: 20px 3%;
   }
-}
+} */
