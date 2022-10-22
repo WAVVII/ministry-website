@@ -97,6 +97,7 @@ section{
     align-items: center;
     justify-content: flex-start;
     margin-bottom: 0px;
+    border-bottom: 10px solid rgb(105, 105, 105);
 }
 
 .new{
@@ -140,6 +141,7 @@ header.sticky{
     grid-template-columns: repeat(2,1fr);
     align-items: center;
     background: rgb(0, 181, 0);
+    border-bottom: 10px solid rgb(105, 105, 105);
 }
 
 .about-img img{
@@ -156,7 +158,6 @@ header.sticky{
     margin: 0;
     font-size: 3.7em;
     font-weight: 600;
-
 }
 
 .about-text h2{
@@ -398,7 +399,7 @@ span{
         width: 67%;
         max-width: 450px;
         position: relative;
-        margin: 20px 93px;
+        margin: 20px 153px;
         justify-content: center;
     }
     .logo img{
@@ -489,6 +490,7 @@ span{
     }
     .about-img img{
         margin-left: 66px;
+        margin: 20px 0 20px 24.3%;
     }
 }
 @media (max-width: 725px){
@@ -505,7 +507,7 @@ span{
     .about-text{
         margin-top: 0px;
         margin-right: 5px;
-        padding-left: 20px;
+        padding-left: 14px;
     }
     .about-text h2{
         padding-right: 10px;
