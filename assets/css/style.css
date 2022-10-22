@@ -52,6 +52,7 @@ header {
 .logo img {
   position: relative;
   max-width: 90px;
+  z-index: 1002;
 }
 
 .navbar {
@@ -67,6 +68,7 @@ header {
   border-radius: 20rem;
   transition: all 0.4s ease;
 }
+
 .navbar a:hover {
   background: rgb(0, 181, 0);
   color: #ffffff;
@@ -80,6 +82,56 @@ header {
   background: rgb(0, 181, 0);
   border: 1px solid rgb(0, 181, 0);
   padding: 10px 25px;
+}
+
+.hamburger{
+  appearance: none;
+  outline: none;
+  border: none;
+  background: none;
+  cursor: pointer;
+  display: block;
+  width: 2rem;
+  height: 2rem;
+  z-index: 1002;
+}
+
+.hamburger span{
+  color: rgb(69, 179, 69);
+  font-size: 1.7rem;
+}
+
+.mobile-menu{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1001;
+  padding-top: 10rem;
+  opacity: 0;
+  transform: translateY(-100%);
+  background-color: white;
+  transition: 0.45s;
+}
+
+.mobile-menu.is-open{
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.mobile-menu a{
+  font-weight: 600;
+  display: block;
+  padding: 1rem;
+  color: black;
+  font-size: 1.25rem;
+  text-align: center;
+  transition: 0.4s;
+}
+
+.mobile-menu a:hover{
+  color: rgb(0, 181, 0);
 }
 
 section {
@@ -397,27 +449,8 @@ span {
 }
 
 @media (max-width: 830px) {
-  #menu-icon {
-    display: block;
-  }
-  .navbar {
-    position: absolute;
-    top: -600px;
-    right: 0px;
-    left: 0px;
-    display: flex;
-    flex-direction: column;
-    background: rgba(255, 255, 255, 0.874);
-    text-align: left;
-    transition: all 0.4s ease;
-  }
-  .navbar a {
-    display: block;
-    padding: 1rem;
-    margin: 1rem;
-  }
-  .navbar.active {
-    top: 100%;
+  .navbar{
+    display: none;
   }
   header .btn {
     display: none;
@@ -426,6 +459,12 @@ span {
     --h1-font: 3.7rem;
     --h2-font: 2.7rem;
     --p-font: 1rem;
+  }
+}
+
+@media (min-width: 831px){
+  .mobile-menu, .hamburger{
+    display: none;
   }
 }
 
