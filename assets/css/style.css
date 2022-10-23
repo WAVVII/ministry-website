@@ -149,7 +149,6 @@ section {
   align-items: center;
   justify-content: flex-start;
   margin-bottom: 0px;
-  border-bottom: 10px solid rgb(105, 105, 105);
 }
 
 .new {
@@ -186,7 +185,6 @@ section {
   grid-template-columns: repeat(2, 1fr);
   align-items: center;
   background: rgb(0, 181, 0);
-  border-bottom: 10px solid rgb(105, 105, 105);
 }
 
 .about-img img {
@@ -247,102 +245,6 @@ span {
   color: rgb(255, 27, 27);
 }
 
-.box .Ortom p {
-  display: inline-block;
-  border-radius: 50px;
-  font-size: 1.15em;
-  color: #ffffff;
-  background: rgb(0, 0, 0);
-  border: 1px solid rgb(0, 181, 0);
-  padding: 5px 20px;
-  margin-bottom: 30px;
-  margin-top: 8px;
-  transition: 0.4s all ease;
-}
-
-.services-content {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, auto));
-  align-items: center;
-  text-align: center;
-  gap: 2rem;
-  margin-top: 5rem;
-}
-
-.sci {
-  position: absolute;
-  top: 50%;
-  bottom: 30px;
-  transform: translateY(-50%);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: row;
-}
-
-.sci li {
-  list-style: none;
-}
-
-.sci li a {
-  display: inline-block;
-  margin: 5px 0;
-  transform: scale(0.6);
-  transition: 0.5s;
-}
-
-.box {
-  padding: 45px;
-  background: rgb(0, 181, 0);
-  border-top: 5px solid transparent;
-  border-radius: 0.9rem;
-  transition: all 0.4s ease;
-  cursor: pointer;
-  box-shadow: 0px px 30px rgba(0, 0, 0, 0.2);
-  transition: all 0.4s ease;
-  align-items: center;
-}
-
-.box img {
-  max-width: 300px;
-}
-
-.box:hover {
-  background: rgb(0, 181, 0);
-  color: #ffffff;
-  transform: scale(1) translateY(-5px);
-}
-.box h2 {
-  font-size: 24px;
-  font-weight: 600;
-  margin: 15px 0;
-  transition: all 0.4s ease;
-  color: #ffffff;
-}
-.end {
-  background: rgb(0, 181, 0);
-  color: #fff;
-}
-.sci {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-}
-
-.sci li {
-  list-style: none;
-}
-
-.sci li a {
-  display: inline-block;
-  margin: 5px 0;
-  transform: scale(0.6);
-  transition: 0.5s;
-}
 
 @media (max-width: 1325px) {
   header {
@@ -505,7 +407,7 @@ span {
 }
 @media (max-width: 1115px) {
   section {
-    height: 100vh;
+    height: 100%;
   }
 }
 @media (max-width: 611px) {
@@ -554,8 +456,7 @@ span {
 }
 
 /* Big Screens (Televisions etc...) */
-/* 
-@media screen and (max-width: 1116px){
+/* @media screen and (max-width: 1116px){
     header{
         padding: 20px 3%;
     }

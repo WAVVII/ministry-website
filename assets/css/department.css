@@ -293,6 +293,9 @@ h3 {
   .mobile-menu, .hamburger{
     display: none;
   }
+  .box{
+    width: 336px;
+  }
 }
 
 @media (max-width: 871px) {
@@ -333,3 +336,9 @@ h3 {
     padding: 20px 3%;
   }
 } */
+
+@media (max-width: 821px){
+  .container .box{
+    width: 335px;
+  }
+}

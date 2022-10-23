@@ -1,0 +1,57 @@
+<div class="services-content">
+                <div class="box">
+                    <img src="">
+                    <h2>Samuel Ortom<br>Governor Benue State</h2>
+                    <a href="misc/ortom/index.html" class="Ortom"><p>See More</p></a>
+                </div>
+
+                <div class="box">
+                    <img src="">
+                    <h2>Dr Joseph Ngbea <br>Commissioner Of Health</h2>
+                </div>
+
+                <div class="box">
+                    <img src="">
+                    <h2>Sir Andrew AMEE<br>Permanent Secetry Of Benue State Ministry Of Health </h2>
+                </div>
+
+                <div class="box">
+                    <img src="">
+                    <h2>Ape MFA<br>Director Administration & supplies </h2>
+                </div>
+
+                <div class="box">
+                    <img src="">
+                    <h2>Dr. Jonathan Terna KUR<br>Director Public Health</h2>
+                </div>
+
+                <div class="box">
+                    <img src="">
+                    <h2>Abraham IJER <br>Director Nursing services</h2>
+                </div>
+
+                <div class="box">
+                    <img src="">
+                    <h2>Maurice ABEGE <br> Medical laboratory Services</h2>
+                </div>
+
+                <div class="box">
+                    <img src="">
+                    <h2>Pharm sewuese BATUR <br>Pharamaceutical Services</h2>
+                </div>
+
+                <div class="box">
+                    <img src="">
+                    <h2>Jonathan Adugh MFFO<br>Director Finance & Accounts</h2>
+                </div>
+
+                <div class="box">
+                    <img src="">
+                    <h2>Dr. Terver Zua<br> Director Clinical Services</h2>
+                </div>
+
+                <div class="box">
+                    <img src="">
+                    <h2>Stephanie ANWEH<br>Director Planning Reserch & Statistics</h2>
+                </div>
+            </div>

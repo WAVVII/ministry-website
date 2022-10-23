@@ -4,6 +4,7 @@
   box-sizing: border-box;
   font-family: "Josefin Sans", sans-serif;
   list-style: none;
+  text-decoration: none;
 }
 
 header {
@@ -190,6 +191,16 @@ form textarea {
   .contactForm form input,
   form textarea {
     background-color: #e8f0fe;
+  }
+}
+
+
+@media (min-width: 804px){
+  .mobile-menu, .hamburger{
+    display: none;
+  }
+  .box{
+    width: 336px;
   }
 }
 
