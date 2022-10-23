@@ -15,7 +15,7 @@ section
 {
 	position: relative;
 	width: 100%;
-	min-height: 100vh;
+	max-height: 100%;
 	padding: 80px;
 	justify-content: space-between;
 	align-items: center;
@@ -147,60 +147,21 @@ h2 span{
 	margin-top: 20px;
 }
 
-.thumb
-{
-	position: absolute;
-	left: 50%;
-	bottom: 20px;
-	transform: translateX(-50%);
+.textonly{
 	display: flex;
-}
-
-.thumb li{
-	list-style: none;
-	display: inline-block;
-	margin: 0 20px;
-	cursor: pointer;
-	transition: 0.5s;
-}
-
-.thumb li:hover
-{
-	transform: translateY(-15px);
-}
-
-.thumb li img
-{
-	max-width: 90px;
-}
-
-.sci
-{
-	position: absolute;
-	top: 0%;
-	right: 30px;
-	transform: translateY(-50%);
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	flex-direction: column;
-}
-
-.sci li{
-	list-style: none;
-}
-
-.sci li a
-{
-	display: inline-block;
-	margin: 5px 0;
-	transform: scale(0.6);
-	transition: 0.5s;
 }
 
 @media (min-width: 980.5px)
 {
-	
+	.content{
+		max-width: 500px;
+	}
+	section{
+		padding: 0px 80px;
+	}
+	.main_hero{
+		margin-top: 20px;
+	}
 }
 
 @media (max-width: 980px){
