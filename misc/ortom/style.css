@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:200,300,400,500,600,700,800&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap");
 *
 {
 	margin: 0;
@@ -17,7 +17,6 @@ section
 	width: 100%;
 	min-height: 100vh;
 	padding: 80px;
-	display: flex;
 	justify-content: space-between;
 	align-items: center;
 	background: #fff;
@@ -25,11 +24,11 @@ section
 
 header
 {
-	position: absolute;
+	position: relative;
 	top: 0;
 	left: 0;
 	width: 100%;
-	padding: 15px 86px;
+	padding: 5px 3%;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
@@ -65,18 +64,29 @@ header ul li a
 {
 	position: relative;
 	width: 100%;
-	display: flex;
 	justify-content: space-between;
 	align-items: center;
 	padding: 0px;
-	margin-top: 50px;
+	margin-top: -120px;
+}
+
+.main_hero{
+	font-size: 2.2em;
+	font-weight: 700;
+	line-height: 50px;
+	position: relative;
+	margin-top: 110px;
+}
+
+h2 span{
+	color: rgb(24, 109, 24);
 }
 
 .content .textBox
 {
 	position: relative;
 	max-width: 600px;
-	padding: 5px;
+	display: contents;
 }
 
 .content .textBox h2
@@ -99,6 +109,7 @@ header ul li a
 	margin-top: 20px;
 	color: #333;
 	font-weight: 550;
+	margin-top: 50px;
 }
 
 .content .textBox a 
@@ -127,9 +138,13 @@ header ul li a
 	display: inline-flex;
 }
 
-.content .imgBox img
+.imgBox img
 {
-	max-width: 400;
+	max-width: 26em;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	margin-top: 20px;
 }
 
 .thumb
@@ -162,7 +177,7 @@ header ul li a
 .sci
 {
 	position: absolute;
-	top: 50%;
+	top: 0%;
 	right: 30px;
 	transform: translateY(-50%);
 	display: flex;
@@ -183,45 +198,22 @@ header ul li a
 	transition: 0.5s;
 }
 
-@media (max-width: 1252px)
+@media (min-width: 980.5px)
 {
-	header{
-		padding: 15px 20px;
-	}
-	header .logo {
-    max-width: 77px;
-	}
+	
+}
+
+@media (max-width: 980px){
 	section{
-		padding: 14px;
-		flex-direction: column;
+		padding: 20px;
 	}
-	.content{
-		flex-direction: column;
-		margin-top: 93px;
+	.textBox{
+		display: contents;
 	}
-	.content .textBox h2{
-		font-size: 2.5em;
-	}
-	.content .textBox{
-		max-width: 100%;
-	}
-	.content .textBox p{
-		margin-bottom: 10px;
-		margin-top: 30px;
-	}
-	.content .imgBox {
-    width: 523px;
-    margin-top: 29px;
-	}
-	.content .imgBox img{
-		max-width: 500px;
-	}
-	.sci{
-		background: green;
-		right: 0;
-		width: 50px;
-		border-top-left-radius: 5px;
-		border-top-left-radius: 5px;
-		display: none;
+}
+
+@media (max-width: 465px){
+	section{
+		margin-top: 40px;
 	}
 }
