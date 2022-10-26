@@ -8,6 +8,10 @@
   text-decoration: none;
 }
 
+a{
+  color: black;
+}
+
 .section {
   position: absolute;
   width: 100%;
@@ -180,6 +184,39 @@ section{
   justify-content: space-between;
   display: inline-block;
 }
+
+.info{
+  margin-top: 110px;
+}
+
+.sect{
+  margin-bottom: 85px;
+}
+
+.main-info{
+  padding: 0 7% 20px;
+  position: relative;
+}
+
+.sect h1{
+  font-size: 1.6rem;
+  text-align: center;
+}
+
+.sectc{
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
 
 @media (max-width: 425px) {
   header {
