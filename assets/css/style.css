@@ -139,7 +139,7 @@ section {
 }
 
 #services{
-  padding: 80px 75px;
+  padding: 80px 75px 60px;
 } 
 
 .home {
@@ -313,6 +313,7 @@ body > ul {
   max-width: 200px;
   margin-inline: auto;
   border-radius: 8%;
+  max-height: 250px;
 }
 
 
@@ -431,7 +432,7 @@ body > ul {
     max-width: 80px;
   }
   #services{
-    padding: 123px 3%;
+    padding: 123px 3% 50px;
   }
 }
 

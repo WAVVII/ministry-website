@@ -14,8 +14,8 @@
   --main-color: #eb4a4a;
   --second-color: green;
   --other-color: #12141c;
-  --h1-font: 3rem;
-  --h2-font: 2. rem;
+  --h1-font: 1.7rem;
+  --h2-font: 1.4rem;
   --p-font: 1.13rem;
 }
 
@@ -152,9 +152,14 @@ header {
   z-index: 1003;
 }
 
---var{
-  font-size: 3em;
+h1{
+  font-size: var(--h1-font);
+  max-width: auto;
+  display: block;
+  justify-content: center;
+  text-align: center
 }
+
 
 
 
