@@ -9,6 +9,17 @@
 }
 
 :root {
+  --step--2: clamp(0.65rem, calc(0.53rem + 0.60vw), 0.96rem);
+  --step--1: clamp(0.78rem, calc(0.62rem + 0.82vw), 1.20rem);
+  --step-0: clamp(0.94rem, calc(0.72rem + 1.10vw), 1.50rem);
+  --step-1: clamp(1.13rem, calc(0.83rem + 1.46vw), 1.88rem);
+  --step-2: clamp(1.35rem, calc(0.96rem + 1.94vw), 2.34rem);
+  --step-3: clamp(1.62rem, calc(1.11rem + 2.56vw), 2.93rem);
+  --step-4: clamp(1.94rem, calc(1.27rem + 3.35vw), 3.66rem);
+  --step-5: clamp(2.33rem, calc(1.46rem + 4.38vw), 4.58rem);
+}
+
+:root {
   --bg-color: #020312;
   --text-color: #fff;
   --main-color: #eb4a4a;
@@ -241,7 +252,7 @@ section {
 }
 
 .main-text h1 {
-  font-size: var(--h2-font);
+  font-size: var(--step-4);
   margin-bottom: 10px;
 }
 
@@ -249,6 +260,9 @@ span {
   color: rgb(255, 27, 27);
 }
 
+.about-text{
+  font-size: var(--step--1);
+}
 /* Box sizing rules */
 *,
 *::before,
@@ -523,9 +537,6 @@ body > ul {
   }
   .about-text h2 {
     padding-right: 10px;
-  }
-  .main-text h1 {
-    font-size: 1.7em;
   }
   .main-text h2 {
     font-size: 1.3em;
