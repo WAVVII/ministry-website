@@ -7,51 +7,179 @@
 
                 <div class="box">
                     <img src="">
-                    <h2>Dr Joseph Ngbea <br>Commissioner Of Health</h2>
+                    <h3>Dr Joseph Ngbea <br>Commissioner Of Health</h3>
                 </div>
 
                 <div class="box">
                     <img src="">
-                    <h2>Sir Andrew AMEE<br>Permanent Secetry Of Benue State Ministry Of Health </h2>
+                    <h3>Sir Andrew AMEE<br>Permanent Secetry Of Benue State Ministry Of Health </h3>
                 </div>
 
                 <div class="box">
                     <img src="">
-                    <h2>Ape MFA<br>Director Administration & supplies </h2>
+                    <h3>Ape MFA<br>Director Administration & supplies </h3>
                 </div>
 
                 <div class="box">
                     <img src="">
-                    <h2>Dr. Jonathan Terna KUR<br>Director Public Health</h2>
+                    <h3>Dr. Jonathan Terna KUR<br>Director Public Health</h3>
                 </div>
 
                 <div class="box">
                     <img src="">
-                    <h2>Abraham IJER <br>Director Nursing services</h2>
+                    <h3>Abraham IJER <br>Director Nursing services</h3>
                 </div>
 
                 <div class="box">
                     <img src="">
-                    <h2>Maurice ABEGE <br> Medical laboratory Services</h2>
+                    <h3>Maurice ABEGE <br> Medical laboratory Services</h3>
                 </div>
 
                 <div class="box">
                     <img src="">
-                    <h2>Pharm sewuese BATUR <br>Pharamaceutical Services</h2>
+                    <h3>Pharm sewuese BATUR <br>Pharamaceutical Services</h3>
                 </div>
 
                 <div class="box">
                     <img src="">
-                    <h2>Jonathan Adugh MFFO<br>Director Finance & Accounts</h2>
+                    <h3>Jonathan Adugh MFFO<br>Director Finance & Accounts</h3>
                 </div>
 
                 <div class="box">
                     <img src="">
-                    <h2>Dr. Terver Zua<br> Director Clinical Services</h2>
+                    <h3>Dr. Terver Zua<br> Director Clinical Services</h3>
                 </div>
 
                 <div class="box">
                     <img src="">
-                    <h2>Stephanie ANWEH<br>Director Planning Reserch & Statistics</h2>
+                    <h3>Stephanie ANWEH<br>Director Planning Reserch & Statistics</h3>
                 </div>
             </div>
+
+
+
+
+
+
+
+
+
+
+            
+        
+        <section class="selection">
+            
+            <section class="sel1">
+
+                <div class="dept wi" id="1"><a href="#first">
+                    <div class="content">
+                        <p>Department Of Administration And Control</p>
+                    </div></a>
+                </div>
+
+            </section>
+
+            <section class="sel2">
+
+                <div class="dept" id="2" href="#">
+                    <div class="content">
+                        <p>Department Of Public Health</p>
+                    </div>
+                </div>
+
+            </section>
+
+            <section class="sel3">
+
+                <div class="dept" id="3" href="#">
+                    <div class="content">
+                        <p>Department Of Clinical Services</p>
+                    </div>
+                </div>
+            
+            </section>
+
+            
+            <section class="sel4">
+
+                <div class="dept wi" id="3" href="#">
+                    <div class="content">
+                        <p>Directorate Of Pharmaceutical Services</p>
+                    </div>
+                </div>
+            
+            </section>
+            
+            <section class="sel5">
+
+                <div class="dept wi" id="3" href="#">
+                    <div class="content">
+                        <p>Directorate Of Medical Laboratory Services</p>
+                    </div>
+                </div>
+            
+            </section>
+            
+            <section class="sel6">
+
+                <div class="dept wi" id="3" href="#">
+                    <div class="content">
+                        <p>Department Of Planning ,Research And Statistics</p>
+                    </div>
+                </div>
+            
+            </section>
+            
+            <section class="sel7">
+
+                <div class="dept" id="3" href="#">
+                    <div class="content">
+                        <p>Department Of Health Planning</p>
+                    </div>
+                </div>
+            
+            </section>
+            
+            <section class="sel8">
+
+                <div class="dept" id="3" href="#">
+                    <div class="content">
+                        <p>Department Of Nursing Services</p>
+                    </div>
+                </div>
+            
+            </section>
+            
+            <section class="sel9">
+
+                <div class="dept" id="3" href="#">
+                    <div class="content">
+                        <p>Department Of Finance & Accounts</p>
+                    </div>
+                </div>
+            
+            </section>
+        </section>
+
+        <section class="info">
+
+            <div class="main-info">
+
+                <div class="sect" id="first">
+                    <h1>Department of Administration And Control</h1>
+                </div>
+    
+                <p class="sectc">
+                    a. Pending 2019 promotion of staff and confirmation of appt carried out <br>
+                    b. The Senior Management Committee has also considered and recommended One Hundred Twenty-Six (126) Senior staff to the Commission for promotion.<br>
+                    c. Within the same period, the junior staff committee sat and considered 2020 promotion of 98 staff, letters have been issued to the affected staff.<br>
+                    d. The Ministry received a Toyota Land Cruiser vehicle donated to it by Medicine San Frontiers a non-Governmental Organization.<br>
+                    e. The Ministry procured 8 No. Toyota Hilux and Ambulance for Emergency Operation unit.<br>
+                    f. The Ministry purchased a public address system for the Information unit of the Ministry.<br>
+                    g. Renovation of the Hon. Commissioner's and part of Department of Public Health's wings of Headquarters, Makurdi.<br>
+                    h. There is relative peace at School of Health Technology, Agasha.<br>
+                </p>
+
+            </div>
+
+        </section>

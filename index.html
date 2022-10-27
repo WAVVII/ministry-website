@@ -1,90 +1,179 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>M.O.H</title>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>M.O.H</title>
 
-        <!-- javascript -->
-        <script defer src="assets/javascript/main.js"></script>
+    <!-- javascript -->
+    <script defer src="assets/javascript/main.js"></script>
 
-        <!---custom css link and media queries--->
-        <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-        <link rel="icon" href="misc/logot.png">
-        <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital@0;1&family=Quicksand:wght@300&display=swap" rel="stylesheet">
-    </head>
-    <body>
+    <!---custom css link and media queries--->
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+    <link rel="icon" href="misc/logot.png" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/boxicons@latest/css/boxicons.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital@0;1&family=Quicksand:wght@300&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!----header---->
+    <header>
+      <a href="index.html" class="logo"><img src="icons/logo.png" /></a>
+      <ul class="navbar">
+        <li><a class="menu_item" href="#">Home</a></li>
+        <li><a class="menu_item" href="Pages/about.html">About us</a></li>
+        <li>
+          <a class="menu_item" href="Pages/activities.html">Activities</a>
+        </li>
+        <li>
+          <a class="menu_item" href="Pages/department.html">Directorates</a>
+        </li>
+      </ul>
+      <a href="Pages/contact.html" class="btn">Contact Us</a>
 
+      <button class="hamburger">
+        <span class="material-icons">menu</span>
+      </button>
 
+      <ul class="mobile-menu">
+        <li><a class="hamenu" href="index.html">Home</a></li>
+        <li><a class="hamenu" href="Pages/about.html">About us</a></li>
+        <li><a class="hamenu" href="Pages/activities.html">Activities</a></li>
+        <li><a class="hamenu" href="Pages/department.html">Directorates</a></li>
+        <li><a href="Pages/contact.html">Contact Us</a></li>
+      </ul>
+    </header>
 
-        <!----header---->
-        <header>
-            <a href="index.html" class="logo"><img src="icons/logo.png"></a>
-            <ul class="navbar">
-                <li><a class="menu_item" href="#">Home</a></li>
-                <li><a class="menu_item" href="Pages/about.html">About us</a></li>
-                <li><a class="menu_item" href="Pages/activities.html">Activities</a></li>
-                <li><a class="menu_item" href="Pages/department.html">Directorates</a></li>
-            </ul>
-            <a href="Pages/contact.html" class="btn">Contact Us</a>
-            
-            <button class="hamburger">
-                <span class="material-icons">menu</span>
-            </button>
+    <!----home---->
+    <section class="home" id="home">
+      <div class="home-test">
+        <div class="new">
+          <h2>Benue State Government</h2>
+        </div>
+        <div class="new2">
+          <h1>Ministry Of Health And Human Services</h1>
+        </div>
+      </div>
+    </section>
 
-            <ul class="mobile-menu">
-                <li><a class="hamenu" href="index.html">Home</a></li>
-                <li><a class="hamenu" href="Pages/about.html">About us</a></li>
-                <li><a class="hamenu" href="Pages/activities.html">Activities</a></li>
-                <li><a class="hamenu" href="Pages/department.html">Directorates</a></li>
-                <li><a href="Pages/contact.html" >Contact Us</a></li>
-            </ul>
-        </header>
+    <!---about--->
+    <secton class="about" id="about">
+      <div class="about-img">
+        <img src="pics/ministry.jpg" />
+      </div>
 
+      <div class="about-text">
+        <h1>The <span class="red">Ministry</span></h1>
+        <h2>
+          The Ministry of Health and Human Services has the cabinet
+          responsibility of implementing national and state government health
+          policies as well as providing technical input to assist Benue State
+          government in the formulation of its health policies for execution.
+          This organisation is set at ensuring the 100% health stability of
+          Benue State.
+        </h2>
+        <a href="Pages/about.html" class="btt">Learn More</a>
+      </div>
+    </secton>
 
-        
-        <!----home---->
-        <section class="home" id="home">
-            <div class="home-test">
-                <div class="new">
-                    <h2>Benue State Government</h2>
-                </div>
-                <div class="new2">
-                    <h1>Ministry Of Health And Human Services</h1>
-                </div>
-            </div> 
-        </section>
+    <!---services--->
+    <section class="services" id="services">
+      <div class="main-text">
+        <h1>Our Executive <span>Heads</span></h1>
+        <h2>
+          The Following Executives Are Responsible For The Management Of The
+          Ministry
+        </h2>
+      </div>
 
+      <div class="scroll-snap">
 
-        
-        <!---about--->
-        <secton class="about" id="about">
+        <ul data-padding-unset class="smol-scroll-snap">
+          <li data-text>
+            <img src="pics/guys/ortom.jpg" />
+            <h3>Samuel Ortom</h3>
+            <p>Governor, Benue State</p>
+          </li>
 
-            <div class="about-img">
-                <img src="pics/ministry.jpg">
-            </div>
+          <li data-text>
+            <img src="pics/guys/bens.png" />
+            <h3>Engr Benson Abonu</h3>
+            <p>Deputy Governor, Benue State</p>
+          </li>
 
-            <div class="about-text">
-                <h1>The <span class="red">Ministry</span></h1>
-                <h2>The Ministry of Health and Human Services has the cabinet responsibility of implementing national and state government health policies as well as providing technical input to assist Benue State government in the formulation of its health policies for execution. This organisation is set at ensuring the 100% health stability of Benue State.</h2>
-                <a href="Pages/about.html" class="btt">Learn More</a>
-            </div>
-              
-        </secton>
+          <li data-text>
+            <img src="pics/guys/ngb.jpg" />
+            <h3>Dr. Joseph Ngbea</h3>
+            <p>Commissioner Of Health</p>
+          </li>
 
+          <li data-text>
+            <img src="pics/guys/amee.jpg" />
+            <h3>Sir Andrew AMEE</h3>
+            <p>Permanent Secetary Of Benue State Ministry Of Health</p>
+          </li>
 
+          <li data-text>
+            <img src="/pics/guys/ape.jpg" />
+            <h3>Ape MFA</h3>
+            <p>Director Administration & supplies</p>
+          </li>
 
-        <!---services--->
-        <section class="services" id="services">
-            <div class="main-text">
-                <h1>Our Executive <span>Heads</span></h1>
-                <h2>The Following Executives Are Responsible For The Management Of The Ministry</h2>
-            </div>
+          <li data-text>
+            <img src="pics/guys/terna.jpg" />
+            <h3>Dr. Jonathan Terna KURB</h3>
+            <p>Director Public Health</p>
+          </li>
 
-        </section>
-    </body>
+          <li data-text>
+            <img src="pics/guys/ijer.jpg" />
+            <h3>Abraham IJER</h3>
+            <p>Director Nursing services</p>
+          </li>
+
+          <li data-text>
+            <img src="pics/guys/maur.jpg" />
+            <h3>Maurice ABEGE</h3>
+            <p>Director Medical laboratory Services</p>
+          </li>
+
+          <li data-text>
+            <img src="pics/guys/sewu.jpg" />
+            <h3>Pharm Sewuese BATUR</h3>
+            <p>Director Pharamaceutical Services</p>
+          </li>
+
+          <li data-text>
+            <img src="pics/guys/john.jpg" />
+            <h3>Jonathan Adugh MFFO</h3>
+            <p>Director Finance & Accounts</p>
+          </li>
+
+          <li data-text>
+            <img src="pics/guys/zua.jpg" />
+            <h3>Dr. Terver Zua</h3>
+            <p>Director Clinical Services</p>
+          </li>
+
+          <li data-text>
+            <img src="pics/guys/anw.jpg" />
+            <h3>Stephanie ANWEH</h3>
+            <p>Director Planning Reserch & Statistics</p>
+          </li>
+        </ul>
+
+      </div>
+    </section>
+  </body>
 </html>

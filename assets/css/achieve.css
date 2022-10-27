@@ -8,6 +8,17 @@
   text-decoration: none;
 }
 
+:root {
+  --text-color: #fff,;
+  --text-colour: #000;
+  --main-color: #eb4a4a;
+  --second-color: green;
+  --other-color: #12141c;
+  --h1-font: 3rem;
+  --h2-font: 2. rem;
+  --p-font: 1.13rem;
+}
+
 a{
   color: black;
 }
@@ -141,73 +152,9 @@ header {
   z-index: 1003;
 }
 
-.mainboy{
-  text-align: center;
-  position: relative;
+--var{
+  font-size: 3em;
 }
-
-.selection{
-  margin-top: 60px;
-  padding: 0 90px;
-  width: 100%;
-  gap: 0.1em;
-  flex-wrap: wrap;
-  display: flex;
-}
-
-.dept{
-  display: inline-block;
-  border: 2px solid black;
-  cursor: pointer;
-  padding: 20px;
-  font-size: 0.8em;
-  font-weight: 700;
-  width: 300px;
-  height: 100px;
-  text-align: center;
-  align-items: center;
-  position: relative;
-  margin-bottom: 40px;
-  display: flex;
-  display: block;
-}
-
-.dept p{
-  margin: 20px 15px;
-}
-
-.wi p{
-margin: 13px 15px;
-}
-
-section{
-  justify-content: space-between;
-  display: inline-block;
-}
-
-.info{
-  margin-top: 110px;
-}
-
-.sect{
-  margin-bottom: 85px;
-}
-
-.main-info{
-  padding: 0 7% 20px;
-  position: relative;
-}
-
-.sect h1{
-  font-size: 1.6rem;
-  text-align: center;
-}
-
-.sectc{
-  font-size: 1rem;
-  font-weight: bold;
-}
-
 
 
 
@@ -277,82 +224,3 @@ section{
     transition: 0.6s;
   }
 }
-
-@media (max-width: 830px){
-  .selection{
-    padding: 0 40px;
-    transition: 0.6s ease-in-out;
-  }
-}
-
-@media (min-width: 830.5px){
-  .selection{
-    transition: 0.6s ease-out;
-  }
-}
-
-@media (max-width: 703px){
-  .dept{
-    width: 250px;
-    height: 110px;
-    transition: 0.6s ease-in-out;
-  }
-}
-
-@media (min-width: 703.5px){
-  .dept{
-    transition: 0.6s ease-in-out;
-  }
-}
-
-@media (max-width: 580px){
-  .dept{
-    width: 500px;
-  }
-  .mainboy{
-    margin-top: 35px;
-  }
-}
-
-@media (max-width: 543px){
-  .dept{
-    width: 437px;
-  }
-  .mainboy{
-    margin-top: 35px;
-  }
-}
-
-@media (max-width: 523px){
-  .dept{
-    width: 447px;
-  }
-}
-
-@media (max-width: 500px){
-  .dept{
-    width: 317px;
-  }
-  .mainboy{
-    margin-top: 35px;
-  }
-}
-
-@media (max-width: 360px){
-  .dept{
-    width: 275px;
-  }
-}
-
-@media (max-width: 280px){
-  .dept{
-    width: 205px;
-  }
-}
-/* Big Screen
-  
-  @media (min-width: 1116px) {
-    header {
-      padding: 20px 3%;
-    }
-} */
