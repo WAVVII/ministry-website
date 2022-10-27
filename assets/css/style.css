@@ -138,9 +138,9 @@ section {
   padding: 160px 90px;
 }
 
-#services{
+#services {
   padding: 80px 75px 60px;
-} 
+}
 
 .home {
   width: 100%;
@@ -270,7 +270,7 @@ p {
  🟣 SmolCSS Snippet Styles
 */
 
-.scroll-snap{
+.scroll-snap {
   margin-top: 35px;
 }
 
@@ -290,7 +290,7 @@ p {
 }
 
 .smol-scroll-snap > * {
-  width: min( 25ch, 60vw);
+  width: min(25ch, 60vw);
 }
 
 /* Additional demo styles from SmolCSS.dev
@@ -309,24 +309,20 @@ body > ul {
   border-radius: 0.15em;
 }
 
-.smol-scroll-snap img{
+.smol-scroll-snap img {
   max-width: 200px;
   margin-inline: auto;
   border-radius: 8%;
   max-height: 250px;
 }
 
+.smol-scroll-snap::-webkit-scrollbar {
+  max-height: 10px;
+}
 
-
-@media all and (min-width: 981px) {
-  .smol-scroll-snap::-webkit-scrollbar{
-    max-height: 10px;
-  }
-  
-  .smol-scroll-snap::-webkit-scrollbar-thumb{
-    background: rgb(0, 181, 0, 0.475);
-    border-radius: 10px;
-  }
+.smol-scroll-snap::-webkit-scrollbar-thumb {
+  background: rgb(0, 181, 0, 0.475);
+  border-radius: 10px;
 }
 
 @media (max-width: 1325px) {
@@ -431,7 +427,7 @@ body > ul {
   .logo img {
     max-width: 80px;
   }
-  #services{
+  #services {
     padding: 123px 3% 50px;
   }
 }
