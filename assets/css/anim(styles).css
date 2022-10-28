@@ -1,3 +1,7 @@
+*{
+    scroll-behavior: smooth;
+}
+
 header{
     animation: fadein 1s ease-in-out;
 }
@@ -5,6 +9,15 @@ header{
 #home{
     animation: fadein 1s ease-in;
     pointer-events: none;
+}
+
+.slide{
+    opacity: 0;
+    transition: all 1s;
+}
+
+.show{
+    opacity: 1;
 }
 
 @keyframes fadein {

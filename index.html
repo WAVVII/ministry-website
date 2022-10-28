@@ -7,10 +7,12 @@
 
     <!-- javascript -->
     <script defer src="assets/javascript/main.js"></script>
+    <script defer src="assets/javascript/mainanim.js"></script>
 
     <!---custom css link and media queries--->
     <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
     <link rel="stylesheet" type="text/css" href="assets/css/anim(styles).css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="icon" href="misc/logot.png" />
     <link
       rel="stylesheet"
@@ -57,7 +59,7 @@
     </header>
 
     <!----home---->
-    <section class="home" id="home">
+    <section class="home slide" id="home">
       <div class="home-test">
         <div class="new">
           <h2>Benue State Government</h2>
@@ -69,12 +71,12 @@
     </section>
 
     <!---about--->
-    <secton class="about" id="about">
-      <div class="about-img">
+    <secton class="about slide" id="about">
+      <div class="about-img" data-aos="fade-right" data-aos-duration="1000">
         <img src="pics/ministry.jpg" />
       </div>
 
-      <div class="about-text">
+      <div class="about-text" data-aos="fade-right" data-aos-duration="1000">
         <h1>The <span class="red">Ministry</span></h1>
         <h2>
           The Ministry of Health and Human Services has the cabinet
@@ -89,7 +91,7 @@
     </secton>
 
     <!---services--->
-    <section class="services" id="services">
+    <section class="services slide" id="services">
       <div class="main-text">
         <h1>Our Executive <span>Heads</span></h1>
         <h2>
@@ -176,5 +178,11 @@
 
       </div>
     </section>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+
   </body>
 </html>
