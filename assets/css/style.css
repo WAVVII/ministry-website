@@ -175,7 +175,7 @@ section {
   color: #000000;
   height: 14vh;
   font-weight: 700;
-  font-size: 40px;
+  font-size: var(--h2-font);
 }
 
 .home-test h1 {
