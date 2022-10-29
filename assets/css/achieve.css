@@ -8,8 +8,20 @@
   text-decoration: none;
 }
 
+/* custom clamps */
 :root {
-  --text-color: #fff,;
+  --step--2: clamp(0.65rem, calc(0.53rem + 0.6vw), 0.96rem);
+  --step--1: clamp(0.78rem, calc(0.62rem + 0.82vw), 1.2rem);
+  --step-0: clamp(0.94rem, calc(0.72rem + 1.1vw), 1.5rem);
+  --step-1: clamp(1.13rem, calc(0.83rem + 1.46vw), 1.88rem);
+  --step-2: clamp(1.35rem, calc(0.96rem + 1.94vw), 2.34rem);
+  --step-3: clamp(1.62rem, calc(1.11rem + 2.56vw), 2.93rem);
+  --step-4: clamp(1.94rem, calc(1.27rem + 3.35vw), 3.66rem);
+  --step-5: clamp(2.33rem, calc(1.46rem + 4.38vw), 4.58rem);
+}
+
+:root {
+  --text-color: #fff;
   --text-colour: #000;
   --main-color: #eb4a4a;
   --second-color: green;
@@ -19,7 +31,7 @@
   --p-font: 1.13rem;
 }
 
-a{
+a {
   color: black;
 }
 
@@ -45,7 +57,7 @@ header {
   padding: 15px 20px;
   border-bottom: 1px solid transparent;
   transition: all 0.4 ease;
-  margin-bottom: 35px;
+  margin-bottom: 15px;
 }
 
 header:hover {
@@ -152,12 +164,53 @@ header {
   z-index: 1003;
 }
 
-h1{
+h1 {
   font-size: var(--h1-font);
   max-width: auto;
   display: block;
   justify-content: center;
-  text-align: center
+  text-align: center;
+  padding: 0 3%;
+  margin-bottom: 10px;
+}
+
+.mainbody {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Poppins", sans-serif;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.container{
+  padding: 0 50px;
+}
+
+.container .box {
+  position: relative;
+  width: 350px;
+  padding: 0px;
+  background: rgb(252, 251, 251);
+  box-shadow: 5px 5px 15px 0px rgba(0, 0, 0, 0.1);
+  margin: 10px;
+  box-sizing: border-box;
+  overflow: hidden;
+  text-align: center;
+  font-size: var(--step--2);
+}
+
+.container .box .content p {
+  margin: 0;
+  padding: 0;
+  font-weight: 600;
+  padding: 40px;
 }
 
 
@@ -165,10 +218,36 @@ h1{
 
 
 
+/* Responsive media queries */
 
+@media screen and (max-width: 800px) {
+  .container .box {
+    width: 300px;
+    transition: 0.6s ease;
+  }
+}
 
+@media screen and (min-width: 800px) {
+  .container .box {
+    transition: 0.6s ease;
+  }
+}
 
+@media screen and (max-width: 678px) {
+  .container .box {
+    width: 275px;
+    transition: 0.6s ease;
+  }
+}
 
+@media screen and (max-width: 530px) {
+  .container {
+    display: block;
+  }
+  .container .box{
+    margin-bottom: 20px;
+  }
+}
 
 @media (max-width: 425px) {
   header {
