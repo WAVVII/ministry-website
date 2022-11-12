@@ -219,6 +219,7 @@ header {
 .bodier {
   padding: 0px 60px;
   height: 100vh;
+  position: relative;
 }
 
 .bodier h1 {
