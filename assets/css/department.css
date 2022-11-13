@@ -169,9 +169,9 @@ header {
   text-align: center;
   padding-top: 30px;
   margin-bottom: 2px;
-  font-weight: 600;
+  font-weight: 700;
   position: relative;
-  color: black;
+  color: #393939;
   font-size: var(--step-1);
 }
 
