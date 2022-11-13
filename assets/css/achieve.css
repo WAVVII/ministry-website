@@ -166,8 +166,8 @@ header {
 }
 
 #h1 {
-  font-size: var(--h1-font);
-  max-width: auto;
+  font-size: var(--step-1);
+  min-width: auto;
   display: block;
   justify-content: center;
   text-align: center;
@@ -215,6 +215,7 @@ header {
   padding: 0;
   font-weight: 600;
   padding: 40px;
+  font-size: var(--step--2);
 }
 
 .bodier {
@@ -254,6 +255,20 @@ header {
 
 .inline{
   max-width: 300px;
+  margin-bottom: 70px;
+}
+
+
+.container {
+  --min: 30ch;
+  --gap: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--gap);
+}
+
+.container > * {
+  flex: 1 1 var(--min);
 }
 
 
@@ -289,9 +304,6 @@ header {
 }
 
 @media screen and (max-width: 530px) {
-  .container {
-    display: block;
-  }
   .container .box {
     margin-bottom: 20px;
   }
