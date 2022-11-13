@@ -8,6 +8,18 @@
   text-decoration: none;
 }
 
+/* custom clamps */
+:root {
+  --step--2: clamp(0.65rem, calc(0.53rem + 0.6vw), 0.96rem);
+  --step--1: clamp(0.78rem, calc(0.62rem + 0.82vw), 1.2rem);
+  --step-0: clamp(0.94rem, calc(0.72rem + 1.1vw), 1.5rem);
+  --step-1: clamp(1.13rem, calc(0.83rem + 1.46vw), 1.88rem);
+  --step-2: clamp(1.35rem, calc(0.96rem + 1.94vw), 2.34rem);
+  --step-3: clamp(1.62rem, calc(1.11rem + 2.56vw), 2.93rem);
+  --step-4: clamp(1.94rem, calc(1.27rem + 3.35vw), 3.66rem);
+  --step-5: clamp(2.33rem, calc(1.46rem + 4.38vw), 4.58rem);
+}
+
 .section {
   position: absolute;
   width: 100%;
@@ -160,6 +172,7 @@ header {
   font-weight: 600;
   position: relative;
   color: black;
+  font-size: var(--step-1);
 }
 
 .container .box {
@@ -267,7 +280,6 @@ h3 {
   }
   .text {
     font-weight: 600;
-    font-size: 2em;
   }
   .SEV {
     justify-content: space-evenly;
