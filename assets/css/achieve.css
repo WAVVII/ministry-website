@@ -29,6 +29,19 @@
   --h1-font: 1.7rem;
   --h2-font: 1.4rem;
   --p-font: 1.13rem;
+  --h1font: clamp(0.78rem, calc(0.62rem + 0.82vw), 1.07rem);
+}
+
+h1, h2, h4, h5, h6 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+
+h3{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  text-transform: uppercase;
 }
 
 a {
@@ -244,6 +257,7 @@ header {
 .bodied ul {
   margin-left: 30px;
   margin-top: 20px;
+  font-size: var(--h1font);
 }
 
 .bodiedd{
@@ -251,11 +265,12 @@ header {
   display: inline-block;
   position: relative;
   gap: 3em;
+  justify-content: center;
 }
 
 .inline{
-  max-width: 300px;
-  margin-bottom: 70px;
+  max-width: 320px;
+  margin-bottom: 55px;
 }
 
 
@@ -270,6 +285,21 @@ header {
 .container > * {
   flex: 1 1 var(--min);
 }
+
+.one-line{
+  margin-bottom: 45px;
+}
+
+/* 
+.title{
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+} */
+
+
+
 
 
 
