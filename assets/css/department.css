@@ -169,10 +169,16 @@ header {
   text-align: center;
   padding-top: 30px;
   margin-bottom: 2px;
-  font-weight: 700;
+  font-family: 'Montserrat', 'sans-serif';
+  text-transform: uppercase;
   position: relative;
+  font-weight: 650;
   color: #393939;
   font-size: var(--step-1);
+}
+
+.content p{
+  color: #393939;
 }
 
 .container .box {

@@ -166,14 +166,14 @@ section{
 
 p{
   margin-bottom: 50px;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 600;
 }
 
 strong{
   color: green;
-}
-
-span{
-  margin-left: 10px;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 900;
 }
 
 .star{
