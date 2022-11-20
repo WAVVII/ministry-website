@@ -256,7 +256,7 @@ span {
   color: rgb(255, 27, 27);
 }
 
-.about-text{
+.about-text h{
   font-size: var(--step-0);
 }
 
@@ -268,6 +268,7 @@ span {
 
 .about h1{
   font-family: 'Open Sans', sans-serif;
+  font-size: var(--step-1);
   font-weight: 600;
 }
 
