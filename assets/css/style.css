@@ -212,7 +212,7 @@ section {
 .about-text h1 {
   margin-top: 100px;
   margin: 0;
-  font-size: var(--step-4);
+  font-size: var(--step-6);
 }
 
 .about-text h2 {
@@ -268,7 +268,7 @@ span {
 
 .about h1{
   font-family: 'Open Sans', sans-serif;
-  font-size: var(--step-1);
+  font-size: var(--step-5);
   font-weight: 600;
 }
 

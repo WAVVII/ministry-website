@@ -269,10 +269,13 @@ header {
 }
 
 .inline{
-  max-width: 320px;
+  max-width:fit-content;
   margin-bottom: 55px;
 }
 
+.unified li{
+  list-style-type: square;
+}
 
 .container {
   --min: 30ch;
@@ -284,10 +287,6 @@ header {
 
 .container > * {
   flex: 1 1 var(--min);
-}
-
-.one-line{
-  margin-bottom: 45px;
 }
 
 /* 
@@ -309,7 +308,7 @@ header {
 
 @media screen and (min-width: 740px){
   .bodiedd{
-    display: flex;
+    display: block;
   }
 }
 
