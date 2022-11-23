@@ -178,6 +178,43 @@ header {
   z-index: 1003;
 }
 
+#button {
+  display: inline-block;
+  background-color: rgba(69, 179, 69, 0.960);
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  border-radius: 5px;
+  position: fixed;
+  bottom: 20px;
+  right: 50px;
+  transition: background-color .3s, opacity .5s, visibility .5s;
+  opacity: 0;
+  z-index: 1000;
+  line-height: 53px;
+}
+
+#button i{
+  font-size:32px;
+  color:white;
+  align-items: center;
+}
+
+#button:hover {
+  cursor: pointer;
+  background-color: green;
+}
+
+#button.show {
+  opacity: 1;
+}
+
+@media (min-width: 500px) {
+  #button {
+    margin: 0px;
+  }
+}
+
 #h1 {
   font-size: var(--step-1);
   min-width: auto;
