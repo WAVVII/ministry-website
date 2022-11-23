@@ -209,12 +209,6 @@ header {
   opacity: 1;
 }
 
-@media (min-width: 500px) {
-  #button {
-    margin: 0px;
-  }
-}
-
 #h1 {
   font-size: var(--step-1);
   min-width: auto;
@@ -269,9 +263,22 @@ header {
 }
 
 .bodier {
-  padding: 0px 60px;
+  padding: 0px 30px;
   height: 100vh;
   position: relative;
+}
+
+@media screen and (min-width: 860px){
+  .bodier{
+    padding: 0px 60px;
+    transition: ease-out 0.6s;
+  }
+}
+
+@media screen and (max-width: 859.5px) {
+  .bodier{
+    transition: ease-in 0.6s;
+  }
 }
 
 .bodier h1 {
@@ -299,7 +306,7 @@ header {
 
 .bodiedd{
   overflow: hidden;
-  display: inline-block;
+  display: block;
   position: relative;
   gap: 3em;
   justify-content: center;
