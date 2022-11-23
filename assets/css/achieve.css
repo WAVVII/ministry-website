@@ -187,7 +187,7 @@ header {
   border-radius: 5px;
   position: fixed;
   bottom: 20px;
-  right: 50px;
+  right: 30px;
   transition: background-color .3s, opacity .5s, visibility .5s;
   opacity: 0;
   z-index: 1000;
