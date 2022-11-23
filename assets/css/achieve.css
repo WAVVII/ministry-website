@@ -181,8 +181,8 @@ header {
 #button {
   display: inline-block;
   background-color: rgba(69, 179, 69, 0.960);
-  width: 40px;
-  height: 40px;
+  width: 36px;
+  height: 36px;
   text-align: center;
   border-radius: 5px;
   position: fixed;
@@ -191,7 +191,7 @@ header {
   transition: background-color .3s, opacity .5s, visibility .5s;
   opacity: 0;
   z-index: 1000;
-  line-height: 53px;
+  line-height: 50px;
 }
 
 #button i{
