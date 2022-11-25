@@ -264,7 +264,7 @@ header {
 
 .bodier {
   padding: 0px 30px;
-  height: 100vh;
+  height: 100%;
   position: relative;
 }
 
@@ -295,7 +295,7 @@ header {
 
 .bodied {
   padding: 80px 0;
-  height: 100vh;
+  height: 100%;
 }
 
 .bodied ul {
@@ -341,7 +341,9 @@ header {
   overflow: hidden;
 } */
 
-
+#medic{
+  margin-top: 20px;
+}
 
 
 
