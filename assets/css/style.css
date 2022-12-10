@@ -8,6 +8,10 @@
   scroll-behavior: smooth;
 }
 
+iframe{
+  display: none;
+}
+
 :root {
   --step--2: clamp(0.65rem, calc(0.53rem + 0.60vw), 0.96rem);
   --step--1: clamp(0.78rem, calc(0.62rem + 0.82vw), 1.20rem);

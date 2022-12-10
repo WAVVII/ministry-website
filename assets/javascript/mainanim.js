@@ -16,7 +16,7 @@ hiddenElements.forEach((el) => observer.observe(el));
 
 
 // Preloader Code
-var delay = 3000;
+var delay = 100000;
 
 setImmediate(function() {
     window.addEventListener("DOMContentLoaded", function() {
