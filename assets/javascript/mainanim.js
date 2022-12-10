@@ -16,8 +16,12 @@ hiddenElements.forEach((el) => observer.observe(el));
 
 
 // Preloader Code
+var delay = 3000;
 
-window.addEventListener("DOMContentLoaded", function() {
-  document.getElementById("preloader").style.display = "none";
-});
+setTimeout(function() {
+    window.addEventListener("DOMContentLoaded", function() {
+      document.getElementById("preloader").style.display = "none";
+    });
+}, delay);
+
 

@@ -37,6 +37,7 @@ header {
   transform: translate(-50%, -50%);
   width: 70px;
   height: 70px;
+  background-color: white;
 }
 
 /* Style the loading animation */
