@@ -32,7 +32,7 @@
   --h1font: clamp(0.78rem, calc(0.62rem + 0.82vw), 1.07rem);
 }
 
-h1, h2, h4, h5, h6 {
+h1, h2, h4, h5, h6, button {
   font-family: 'Montserrat', sans-serif;
   font-weight: 300;
   text-transform: uppercase;
@@ -249,6 +249,7 @@ header {
   box-shadow: 5px 5px 15px 0px rgba(0, 0, 0, 0.1);
   margin: 10px;
   box-sizing: border-box;
+  border-radius: 6px;
   overflow: hidden;
   text-align: center;
   font-size: var(--step--2);
@@ -344,6 +345,21 @@ header {
 #medic{
   margin-top: 20px;
 }
+
+.download{
+  border-radius: 10px;
+  border: 0.6px solid grey;
+  padding: 7px 10px;
+  color: rgb(41, 41, 41);
+  font-weight: 600;
+  background-color: rgb(81, 177, 81);
+}
+
+
+
+
+
+
 
 
 

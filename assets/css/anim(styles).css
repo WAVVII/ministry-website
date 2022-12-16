@@ -29,7 +29,7 @@ header {
   }
 }
 
-/* Style the preloader container */
+
 #preloader {
   position: absolute;
   top: 50%;
@@ -40,7 +40,7 @@ header {
   background-color: white;
 }
 
-/* Style the loading animation */
+
 #preloader:before {
   content: "";
   display: block;
@@ -52,7 +52,7 @@ header {
   animation: spin 1s linear infinite;
 }
 
-/* Add a animation for the loading spinner */
+
 @keyframes spin {
   0% {
     transform: rotate(0deg);
