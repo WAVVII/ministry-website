@@ -573,9 +573,9 @@ body > ul {
 
 }
 
-/* Dark Mode */
+/* Dark Mode (Proj abandoned ........ too much stress abeg)*/
 
-:root{
+/* :root{
   --color-green: #346751;
   --color-black: #161616;
   --color-dark: #333535;
@@ -614,4 +614,4 @@ body > ul {
   .services{
     background-color: var(--color-dark);
   }
-}
+} */
