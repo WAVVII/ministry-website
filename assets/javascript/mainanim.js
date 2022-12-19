@@ -1,22 +1,23 @@
+const fadeInElements = document.querySelectorAll('.slide');
+
 const observer = new IntersectionObserver((entries) => {
-    entries.forEach((entry) => {
-        console.log(entry)
-        if (entry.isIntersecting) {
-            entry.target.classList.add('show');
-        } else{
-            entry.target.classList.remove('show');
-        }
-    });
+  entries.forEach((entry) => {
+    if (entry.intersectionRatio > 0) {
+      entry.target.style.animation = `fadein 1s forwards`;
+      observer.unobserve(entry.target);
+    }
+  });
+});
+
+fadeInElements.forEach((element) => {
+  observer.observe(element);
 });
 
 
 
-const hiddenElements = document.querySelectorAll('.slide');
-hiddenElements.forEach((el) => observer.observe(el));
-
 
 // Preloader Code
-var delay = 1000;
+let delay = 1000;
 
 setImmediate(function() {
     window.addEventListener("DOMContentLoaded", function() {

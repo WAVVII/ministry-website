@@ -573,6 +573,16 @@ body > ul {
 
 }
 
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+
 /* Dark Mode (Proj abandoned ........ too much stress abeg)*/
 
 /* :root{
