@@ -572,3 +572,40 @@ body > ul {
 @media (min-width: 1200px){
 
 }
+
+/* Dark Mode */
+
+:root{
+  --color-green: #346751;
+  --color-black: #161616;
+  --color-dark: #333535;
+  --color-red: #c84b31;
+  --color-light-brown: #ecdbba;
+  --opposite-dark: rgb(221, 221, 221);
+  --opposite-red: rgb(255, 100, 100);
+  --opposite-green: #B3FFAE;
+}
+
+@media (prefers-color-scheme:dark){
+  header{
+    background-color: var(--color-dark);
+  }
+  header:hover{
+    background-color: var(--color-dark);
+  }
+  .navbar a{
+    color: var(--opposite-dark);
+  }
+  #home{
+    background-color: var(--color-dark);
+  }
+  .is-open{
+    background-color: var(--color-dark);
+  }
+  .is-open a{
+    color: var(--opposite-dark);
+  }
+  .new h2{
+    color: var(--opposite-dark);
+  }
+}
