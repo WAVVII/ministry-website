@@ -583,7 +583,7 @@ body > ul {
   --color-light-brown: #ecdbba;
   --opposite-dark: rgb(221, 221, 221);
   --opposite-red: rgb(255, 100, 100);
-  --opposite-green: #B3FFAE;
+  --opposite-green: #62f557;
 }
 
 @media (prefers-color-scheme:dark){
@@ -607,5 +607,11 @@ body > ul {
   }
   .new h2{
     color: var(--opposite-dark);
+  }
+  .about{
+    background-color: var(--color-dark);
+  }
+  .services{
+    background-color: var(--color-dark);
   }
 }
