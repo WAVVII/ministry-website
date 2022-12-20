@@ -1,4 +1,4 @@
-const fadeInElements = document.querySelectorAll('.slide');
+const fadeInElements = document.querySelectorAll(".slide");
 
 const observer = new IntersectionObserver((entries) => {
   entries.forEach((entry) => {
@@ -13,16 +13,17 @@ fadeInElements.forEach((element) => {
   observer.observe(element);
 });
 
-
-
-
 // Preloader Code
-let delay = 1000;
+const preloader = document.getElementById("preloader");
 
-setImmediate(function() {
-    window.addEventListener("DOMContentLoaded", function() {
-      document.getElementById("preloader").style.display = "none";
-    });
-}, delay);
+const observers = new IntersectionObserver((entries) => {
+  entries.forEach((entry) => {
+    if (entry.intersectionRatio > 0) {
+      preloader.style.animation = `fadeout 1s forwards`;
 
+      observer.unobserve(entry.target);
+    }
+  });
+});
 
+observers.observe(preloader);
