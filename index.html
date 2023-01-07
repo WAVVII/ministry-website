@@ -13,6 +13,7 @@
     <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
     <link rel="stylesheet" type="text/css" href="assets/css/anim(styles).css" />
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+	  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/flickity/2.2.1/flickity.css">
     <link rel="icon" href="icons/logo.png" />
     <link
       rel="stylesheet"
@@ -31,10 +32,6 @@
     <link href="https://fonts.googleapis.com/css?family=Archivo:400,500,600,700,800|Open+Sans:300,,400,500,600,700" rel="stylesheet">
   </head>
   <body>
-
-    <!-- preloader -->
-    <div id="preloader"></div>
-
 
     <!----header---->
     <header>
@@ -74,7 +71,6 @@
           <h1>Ministry Of Health And Human Services</h1>
         </div>
       </div>
-      
     </section>
 
     <!---about--->
@@ -97,9 +93,36 @@
       </div>
     </secton>
 
+    <!-- slider -->
+    <section class="gallery ">
+      <div class="marqtext">
+          <h1>Photo Gallery</h1>
+      </div>
+      <div class="acroll-snap">
+        <ul data-padding-unset class="smol-scroll-snap2">
+          <li data-text>
+            <img src="assets/img/img-2.jpg">
+            <h3 style="font-size: var(--step--0); margin-top: 20px;">Honourable Commissioner's Waiting Room</h3>
+          </li>
+          <li data-text>
+            <img src="assets/img/img-3.jpg">
+            <h3 style="font-size: var(--step--0); margin-top: 20px;">The Confrerence Hall</h3>
+          </li>
+          <li data-text>
+            <img src="assets/img/img-4.jpg">
+            <h3 style="font-size: var(--step--0); margin-top: 20px;">Ministry's Headquaters Hall, State Secretariat</h3>
+          </li>
+          <li data-text>
+            <img src="assets/img/img-1.jpg">
+            <h3 style="font-size: var(--step--0); margin-top: 20px;">The Benue Primary Health Care Board Office</h3>
+          </li>
+        </ul>
+      </div>
+    </section>
+
     <!---services--->
     <section class="services slide" id="services">
-      <div class="main-text" data-aos="fade-down" data-aos-duration="1000" data-aos-mirror="true">
+      <div class="main-text" data-aos="fade-down" data-aos-duration="1000" data-aos-once="true">
         <h1>Our Executive <span>Heads</span></h1>
         <h2>
           The Following Executives Are Responsible For The Management Of The
@@ -107,7 +130,7 @@
         </h2>
       </div>
 
-      <div class="scroll-snap" data-aos="fade-down" data-aos-duration="1000" data-aos-mirror="true">
+      <div class="scroll-snap" data-aos="fade-down" data-aos-duration="1000" data-aos-once="true">
 
         <ul data-padding-unset class="smol-scroll-snap">
           <li data-text>
@@ -186,10 +209,10 @@
       </div>
     </section>
 
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/flickity/2.2.1/flickity.pkgd.min.js"></script>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
       AOS.init();
-    </script>
-
+    </script>    
   </body>
 </html>

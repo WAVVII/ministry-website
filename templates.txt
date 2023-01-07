@@ -32,3 +32,56 @@
             </div>
 
         </section>
+
+
+        
+      <div class="home-test" data-aos="fade-right" data-aos-duration="1000" data-aos-once="true">
+        <div class="new">
+          <h2>Benue State Government</h2>
+        </div>
+        <div class="new2">
+          <h1>Ministry Of Health And Human Services</h1>
+        </div>
+      </div>
+
+      
+    <div class="hero-slider" data-carousel>
+      <div class="carousel-cell" style="background-image: url(assets/img/img-1.jpg);">
+        <div class="inner">
+          <div class="home-test" data-aos="fade-right" data-aos-duration="1000" data-aos-once="true">
+            <div class="new">
+              <h2>Benue State Government</h2>
+            </div>
+            <div class="new2">
+              <h1>Ministry Of Health And Human Services</h1>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="carousel-cell" style="background-image: url(assets/img/img-2.jpg);">
+        <div class="inner">
+          <div class="home-test" data-aos="fade-right" data-aos-duration="1000" data-aos-once="true">
+            <div class="new">
+              <h2>Benue State Government</h2>
+            </div>
+            <div class="new2">
+              <h1>Ministry Of Health And Human Services</h1>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="carousel-cell" style="background-image: url(assets/img/img-3.jpg); object-fit: cover;">
+        <div class="inner">
+          <div class="home-test" data-aos="fade-right" data-aos-duration="1000" data-aos-once="true">
+            <div class="new">
+              <h2>Benue State Government</h2>
+            </div>
+            <div class="new2">
+              <h1>Ministry Of Health And Human Services</h1>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>

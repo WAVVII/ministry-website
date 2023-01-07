@@ -13,17 +13,21 @@ fadeInElements.forEach((element) => {
   observer.observe(element);
 });
 
-// Preloader Code
-const preloader = document.getElementById("preloader");
+var options = {
+  accessibility: true,
+  prevNextButtons: true,
+  pageDots: true,
+  setGallerySize: false
+};
 
-const observers = new IntersectionObserver((entries) => {
-  entries.forEach((entry) => {
-    if (entry.intersectionRatio > 0) {
-      preloader.style.animation = `fadeout 1s forwards`;
+var carousel = document.querySelector('[data-carousel]');
+var slides = document.getElementsByClassName('carousel-cell');
+var flkty = new Flickity(carousel, options);
 
-      observer.unobserve(entry.target);
-    }
+flkty.on('scroll', function () {
+  flkty.slides.forEach(function (slide, i) {
+    var image = slides[i];
+    var x = (slide.target + flkty.x) * -1/3;
+    image.style.backgroundPosition = x + 'px';
   });
 });
-
-observers.observe(preloader);

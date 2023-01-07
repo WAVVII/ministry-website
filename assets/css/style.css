@@ -159,6 +159,7 @@ section {
 
 #services {
   padding: 80px 75px 60px;
+  background: white;
 }
 
 .home {
@@ -280,7 +281,50 @@ span {
   font-weight: 600;
 }
 
+/*Dumb*/
 
+.gallery{
+  height: 100vh;
+}
+
+.marq {
+  height: 30vh;
+  margin-top: 20px;
+}
+
+.marqtext {
+  text-align: center;
+  font-size: var(--step-1);
+  color: black;
+}
+
+.smol-scroll-snap2 {
+  /* Set up container positioning */
+  display: grid;
+  grid-auto-flow: column;
+  grid-gap: 3rem;
+  /* Enable overflow along our scroll axis */
+  overflow-x: auto;
+  /* Define axis and scroll type, where
+  `mandatory` means any scroll attempt will
+  cause a scroll to the next item */
+  scroll-snap-type: x mandatory;
+  padding: 0 0 1.5rem;
+  -webkit-overflow-scrolling: touch;
+}
+
+.smol-scroll-snap2 img{
+  max-width: 490px;
+  margin-top: 30px;
+  aspect-ratio: 16/11;
+  border-radius: 4%;
+  align-items: center;
+}
+
+.smol-scroll-snap2 > * {
+  scroll-snap-align: center;
+  scroll-snap-stop: always;
+}
 
 /* Box sizing rules */
 *,
@@ -452,7 +496,28 @@ body > ul {
     max-width: 80px;
   }
   #services {
-    padding: 123px 3% 50px;
+    padding: 0px 3% 50px;
+  }
+  .gallery{
+    padding: 80px 0px 0px;
+    height: 70vh;
+  }
+  
+  :root {
+    --tep--2: clamp(13.02rem, calc(10.59rem + 12.14vw), 20.00rem);
+    --tep--1: clamp(15.63rem, calc(12.36rem + 16.30vw), 25.00rem);
+    --tep-0: clamp(18.75rem, calc(16.20rem + 21.74vw), 31.25rem);
+    --tep-1: clamp(22.50rem, calc(16.74rem + 28.80vw), 39.06rem);
+    --tep-2: clamp(27.00rem, calc(19.41rem + 37.96vw), 48.83rem);
+    --tep-3: clamp(32.40rem, calc(22.44rem + 49.80vw), 61.04rem);
+    --tep-4: clamp(38.88rem, calc(25.87rem + 65.07vw), 76.29rem);
+    --tep-5: clamp(46.66rem, calc(29.71rem + 84.72vw), 95.37rem);
+  }
+
+  .gallery img{
+    aspect-ratio: 16/11;
+    max-width: var(--tep-0);
+    border-radius: 4%;
   }
 }
 

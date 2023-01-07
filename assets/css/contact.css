@@ -9,7 +9,6 @@
 
 header {
   position: relative;
-  position: fixed;
   right: 0;
   top: 0;
   width: 100%;
@@ -115,7 +114,7 @@ section {
   display: grid;
   grid-template-columns: repeat(2, 2fr);
   align-items: center;
-  margin-top: 100px;
+  margin-top: 0px;
 }
 
 .contactForm h1 {
