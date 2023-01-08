@@ -14,6 +14,7 @@
     <link rel="stylesheet" type="text/css" href="assets/css/anim(styles).css" />
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 	  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/flickity/2.2.1/flickity.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
     <link rel="icon" href="icons/logo.png" />
     <link
       rel="stylesheet"
@@ -34,20 +35,24 @@
   <body>
 
     <!----header---->
-    <header>
+    <header class="nav-bar transparent">
       <a href="index.html" class="logo"><img src="icons/logo.png" /></a>
       <ul class="navbar">
-        <li><a class="menu_item" href="#">Home</a></li>
-        <li><a class="menu_item" href="Pages/about.html">About us</a></li>
-        <li>
+        <li class="menushow">
+          <a class="menu_item" href="#">Home</a>
+        </li>
+        <li class="menushow">
+          <a class="menu_item" href="Pages/about.html">About us</a>
+        </li>
+        <li class="menushow">
           <a class="menu_item" href="Pages/activities.html">Activities</a>
         </li>
-        <li>
+        <li class="menushow">
           <a class="menu_item" href="Pages/department.html">Directorates</a>
         </li>
       </ul>
       <a href="Pages/contact.html" class="btn">Contact Us</a>
-
+      
       <button class="hamburger">
         <span class="material-icons">menu</span>
       </button>
@@ -63,6 +68,7 @@
     
     <!----home---->
     <section class="home slide" id="home">
+      <div class="overlay"></div>
       <div class="home-test" data-aos="fade-right" data-aos-duration="1000" data-aos-once="true">
         <div class="new">
           <h2>Benue State Government</h2>
@@ -74,7 +80,7 @@
     </section>
 
     <!---about--->
-    <secton class="about slide" id="about">
+    <secton class="about slide" id="about trigger">
       <div class="about-img" data-aos="fade-right" data-aos-duration="1000" data-aos-once="true">
         <img src="pics/ministry.jpg" />
       </div>
@@ -214,5 +220,6 @@
     <script>
       AOS.init();
     </script>    
+    <script src="https://code.jquery.com/jquery-3.6.3.js"></script>
   </body>
 </html>
